@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.top-list {
+    margin: 0 auto;
+}
+
+.title {
+    color: rgb(232, 230, 244);
+    float: left;
+    margin-left: 500px;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black,
+        -1px 1px 0 black, 1px -1px 0 black,
+        0px 1px 0 black, 0-1px 0 black,
+        -1px 0 0 black, 1px 0 0 black;
+    ;
+}
+
+.date {
+    margin-top: 120px;
+}
+
+body {
+    background-color: rgb(16, 118, 241);
+}
+
+header {
+    background-color: rgb(49, 232, 249);
+    top: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 1% 10px;
+    border-radius: 1%;
+}
